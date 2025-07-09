@@ -1,7 +1,7 @@
 <?php
 
 $conn = mysqli_connect('localhost', 'root', '', 'chat-app') or die(mysqli_connect_error());
-$hostname = 'http://localhost/01_php/00_projects/01_chat%20app';
+$hostname = 'http://localhost/php/projects/php-chat-app';
 
 
 function response($success, $message){

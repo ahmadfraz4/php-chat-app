@@ -25,6 +25,7 @@ async function registerUser(e) {
         });
 
         let data = await response.json();
+        // console.log(data)
         data = data[0];
         if (response.ok) {
             message(data, 2000)

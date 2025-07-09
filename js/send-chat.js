@@ -25,7 +25,7 @@ function statusDown(){
         }
     }, 1500);
 }
-
+ 
 function statusUp(){
     sendStatus('Active');
 }
